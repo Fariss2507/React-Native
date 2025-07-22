@@ -18,7 +18,7 @@ const LoginPage = () => {
       Alert.alert('Error', 'Please fill in all fields');
     } else {
       Alert.alert('Login Successful', `Welcome, ${email}`);
-      // You can also navigate or do API login here
+  
     }
   };
 
