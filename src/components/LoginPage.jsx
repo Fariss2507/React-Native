@@ -9,7 +9,7 @@ import {
   Alert,
 } from 'react-native';
 
-const App = () => {
+const LoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     color: '#000',
   },
   button: {
-    backgroundColor: '#007bff',
+    backgroundColor: '#ff00f2ff',
     paddingVertical: 15,
     borderRadius: 10,
   },
