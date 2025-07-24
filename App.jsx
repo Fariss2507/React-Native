@@ -1,6 +1,8 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import StatusBarExample from './src/components/StatusBarExample';
+import ModalDialogBox from './src/components/ModalDialogBox';
+// import UseRefHook from './src/components/UseRefHook';
+// import StatusBarExample from './src/components/StatusBarExample';
 // import StatusBar from './src/components/StatusBarExample';
 // import Loader from './src/components/Loader';
 // import StyleWithButtons from './src/components/StyleWithButtons';
@@ -20,7 +22,9 @@ const App = () => {
   {/* <StyleWithButtons/> */}
   {/* <Loader/> */}
   {/* <StatusBar/> */}
-  <StatusBarExample/>
+  {/* <StatusBarExample/> */}
+  {/* <UseRefHook/> */}
+  <ModalDialogBox/>
     </View>    
   );
 };
