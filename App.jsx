@@ -1,6 +1,9 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import ModalDialogBox from './src/components/ModalDialogBox';
+import GET_API from './src/components/GET_API';
+// import ModalDialogBox from './src/components/ModalDialogBox';
+// import AlertExample from './src/components/AlertExample';
+// import ModalDialogBox from './src/components/ModalDialogBox';
 // import UseRefHook from './src/components/UseRefHook';
 // import StatusBarExample from './src/components/StatusBarExample';
 // import StatusBar from './src/components/StatusBarExample';
@@ -15,7 +18,7 @@ import ModalDialogBox from './src/components/ModalDialogBox';
 const App = () => {
   return (
     // <LoginPage/> 
-    <View > 
+     <View style={{flex:1 , justifyContent:'center'}} > 
   {/* <UseEffectHook/>  */}
   {/* <UseEffectHookUpdatingPhase/> */}
   {/* <UseEffectHookUnmountingPhase/> */}
@@ -24,7 +27,10 @@ const App = () => {
   {/* <StatusBar/> */}
   {/* <StatusBarExample/> */}
   {/* <UseRefHook/> */}
-  <ModalDialogBox/>
+  {/* <ModalDialogBox/> */}
+   {/* <AlertExample/> */}
+   {/* <ModalDialogBox/> */}
+   <GET_API/>
     </View>    
   );
 };
