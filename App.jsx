@@ -1,6 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import GET_API from './src/components/GET_API';
+import DELETE_API from './src/components/DELETE_API';
+// import PATCH_API from './src/components/PATCH_API';
+// import PUT_API from './src/components/PUT_API';
+// import POST_API from './src/components/POST_API';
+// import GET_API from './src/components/GET_API';
 // import ModalDialogBox from './src/components/ModalDialogBox';
 // import AlertExample from './src/components/AlertExample';
 // import ModalDialogBox from './src/components/ModalDialogBox';
@@ -18,7 +22,7 @@ import GET_API from './src/components/GET_API';
 const App = () => {
   return (
     // <LoginPage/> 
-     <View style={{flex:1 , justifyContent:'center'}} > 
+     <View style={{flex:1 , alignContent:'center'}} > 
   {/* <UseEffectHook/>  */}
   {/* <UseEffectHookUpdatingPhase/> */}
   {/* <UseEffectHookUnmountingPhase/> */}
@@ -30,7 +34,12 @@ const App = () => {
   {/* <ModalDialogBox/> */}
    {/* <AlertExample/> */}
    {/* <ModalDialogBox/> */}
-   <GET_API/>
+   {/* <GET_API/> */}
+   {/* <POST_API/> */}
+   {/* <PUT_API/> */}
+   {/* <PATCH_API/> */}
+   <DELETE_API/>
+
     </View>    
   );
 };
